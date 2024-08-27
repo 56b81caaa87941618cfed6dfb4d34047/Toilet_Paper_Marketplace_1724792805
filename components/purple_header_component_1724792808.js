@@ -1,3 +1,10 @@
+<!--
+INSTRUCTION: Summary: HTML file that describes the header section including:
+INSTRUCTION: 1. Site branding with a logo on the left.
+INSTRUCTION: 2. Desktop navigation menu with links to different pages in the middle.
+INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
+-->
+
 <template>
   <header class="w-full z-30" id="header-section-container" style="min-height: 390px">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
@@ -82,18 +89,6 @@
           </li>
         </ul>
 
-        <!-- Hadoken Button -->
-        <div class="flex-1 flex justify-end items-center ml-4">
-          <button
-            id="hadoken-button"
-            class="btn-sm transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-            @click="performHadoken"
-          >
-            <i class='bx bxs-hot mr-2'></i>
-            Hadoken!
-          </button>
-        </div>
-
         <!-- Mobile Menu -->
         <div class="md:hidden flex items-center ml-4">
           <button
@@ -101,7 +96,7 @@
             class="hamburger"
             :class="{ active: expanded }"
             @click.stop="expanded = !expanded"
-            :aria-controls="'mobile-nav'"
+            aria-controls="mobile-nav"
             :aria-expanded="expanded"
           >
             <span class="sr-only">Menu</span>
@@ -115,9 +110,11 @@
           <nav
             id="mobile-nav"
             class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
+            x-ref="mobileNav"
+            :
             @click.outside="expanded = false"
             @keydown.escape.window="expanded = false"
-            v-cloak
+            x-cloak
           >
             <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]">
               <li>
@@ -191,13 +188,6 @@ export default {
       this.form = { name: '', email: '', message: '' };
     }
     // End of submit form method
-    },
-    // Hadoken method
-    performHadoken() {
-      console.log("Hadoken!");
-      // Add your Hadoken logic here
-    }
-    // End of Hadoken method
   }
 };
 </script>
