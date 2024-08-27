@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Can you clarify where you would like the shoryuken button to be placed within the app interface?\", \"option1\": \"On the main navigation bar\", \"option2\": \"Embedded within the product details page\"}, {\"question 2\": \"What action do you want to trigger when the shoryuken button is pressed?\", \"option1\": \"Initiate a new trade\", \"option2\": \"Share the product details with friends\"}], \"input_token_count\": 271, \"output_token_count\": 104, \"time_taken\": \"0:00:02.439283\"}",
+        "message_id": "guest27082024220958",
+        "timestamp": "27082024221002",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Working on adding a shoryuken button.",
         "message_id": "guest27082024220958",
