@@ -38,5 +38,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nAdd a hadoken button"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's current request of changes to be made:\nAdd a shoryouken button"
     }
 ]
