@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "Add a shoryouken button",
+        "message_id": "guest27082024230109",
+        "timestamp": "27082024230109",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'shoryuken' button positioned on the webpage?\", \"option1\": \"Below the 'hadoken' button\", \"option2\": \"At the bottom of the homepage\"}, {\"question 2\": \"What action should the 'shoryuken' button trigger when clicked?\", \"option1\": \"Open a modal with detailed information\", \"option2\": \"Navigate to a new page with a special offer\"}], \"input_token_count\": 602, \"output_token_count\": 104, \"time_taken\": \"0:00:02.702010\"}",
         "message_id": "guest27082024222914",
