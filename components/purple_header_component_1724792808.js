@@ -150,6 +150,31 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
       </div>
     </div>
   </header>
+
+  <!-- Santa Email Form -->
+  <div class="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-2xl font-bold mb-4 text-center text-red-600">Contact Santa</h2>
+    <form @submit.prevent="submitSantaForm">
+      <div class="mb-4">
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" id="name" v-model="santaForm.name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-300 focus:ring focus:ring-red-200 focus:ring-opacity-50" required>
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" id="email" v-model="santaForm.email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-300 focus:ring focus:ring-red-200 focus:ring-opacity-50" required>
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-sm font-medium text-gray-700">Message to Santa</label>
+        <textarea id="message" v-model="santaForm.message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-300 focus:ring focus:ring-red-200 focus:ring-opacity-50" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+          <i class='bx bx-envelope mr-2'></i>
+          Send to Santa
+        </button>
+      </div>
+    </form>
+  </div>
 </template>
 
 <script>
@@ -159,6 +184,11 @@ export default {
     return {
       expanded: false,
       tab: null,
+      santaForm: {
+        name: '',
+        email: '',
+        message: ''
+      }
     };
   },
   methods: {
@@ -167,7 +197,15 @@ export default {
       console.log("Hadoken!");
       // Add your Hadoken logic here
     }
-    // End of Hadoken method
+    },
+    // Santa Form Submission method
+    submitSantaForm() {
+      console.log('Form submitted:', this.santaForm);
+      // Add your form submission logic here
+      // Reset form after submission
+      this.santaForm = { name: '', email: '', message: '' };
+    }
+    // End of Santa Form Submission method
   }
 };
 </script>
