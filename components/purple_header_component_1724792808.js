@@ -89,30 +89,6 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
           </li>
         </ul>
 
-        <!-- Hadoken Button -->
-        <div class="flex-1 flex justify-end items-center ml-4">
-          <button
-            id="hadoken-button"
-            class="btn-sm transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-            @click="performHadoken"
-          >
-            <i class='bx bxs-hot mr-2'></i>
-            Hadoken!
-          </button>
-        </div>
-
-        <!-- Shoryuken Button -->
-        <div class="flex-1 flex justify-end items-center ml-4">
-          <button
-            id="shoryuken-button"
-            class="btn-sm transition duration-150 ease-in-out text-white hover:text-red-300 bg-gradient-to-r from-red-600 to-red-400 hover:from-red-500 hover:to-red-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-            @click="performShoryuken"
-          >
-            <i class='bx bxs-flame mr-2'></i>
-            Shoryuken!
-          </button>
-        </div>
-
         <!-- Mobile Menu -->
         <div class="md:hidden flex items-center ml-4">
           <button
@@ -173,19 +149,5 @@ export default {
       tab: null,
     };
   },
-  methods: {
-    // Hadoken method
-    performHadoken() {
-      console.log("Hadoken!");
-      // Add your Hadoken logic here
-    }
-    },
-    // Shoryuken method
-    performShoryuken() {
-      console.log("Shoryuken!");
-      // Add your Shoryuken logic here
-    }
-    // End of Shoryuken method
-  }
 };
 </script>
