@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Live chat support for immediate assistance\", \"checked\": true}, {\"feature\": \"FAQ section for common queries\", \"checked\": false}, {\"feature\": \"User feedback form for service improvement\", \"checked\": false}, {\"feature\": \"Subscription form for newsletter and updates\", \"checked\": true}, {\"feature\": \"Interactive map to locate nearby toilet paper suppliers\", \"checked\": false}, {\"feature\": \"Social media integration for easy sharing and community building\", \"checked\": true}], \"input_token_count\": 225, \"output_token_count\": 101, \"time_taken\": \"0:00:04.044040\"}",
+        "message_id": "guest27082024212732",
+        "timestamp": "27082024212738",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "I will add an email form for contacting Santa.",
         "message_id": "guest27082024212732",
