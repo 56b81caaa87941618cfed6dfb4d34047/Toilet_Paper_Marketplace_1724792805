@@ -89,18 +89,6 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
           </li>
         </ul>
 
-        <!-- Hadoken Button -->
-        <div class="flex-1 flex justify-end items-center ml-4">
-          <button
-            id="hadoken-button"
-            class="btn-sm transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-            @click="performHadoken"
-          >
-            <i class='bx bxs-hot mr-2'></i>
-            Hadoken!
-          </button>
-        </div>
-
         <!-- Mobile Menu -->
         <div class="md:hidden flex items-center ml-4">
           <button
@@ -150,32 +138,6 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
       </div>
     </div>
   </header>
-
-  <!-- Santa Contact Form -->
-  <div class="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg">
-    <h2 class="text-2xl font-bold mb-4 text-center text-red-600">Contact Santa</h2>
-    <form @submit.prevent="submitSantaForm">
-      <div class="mb-4">
-        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
-        <input type="text" id="name" v-model="santaForm.name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring focus:ring-red-200 focus:ring-opacity-50">
-      </div>
-      <div class="mb-4">
-        <label for="wishlist" class="block text-sm font-medium text-gray-700">Your Wish</label>
-        <textarea id="wishlist" v-model="santaForm.wishlist" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring focus:ring-red-200 focus:ring-opacity-50"></textarea>
-      </div>
-      <div class="mb-4">
-        <label for="naughty-nice" class="block text-sm font-medium text-gray-700">Have you been naughty or nice?</label>
-        <select id="naughty-nice" v-model="santaForm.status" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring focus:ring-red-200 focus:ring-opacity-50">
-          <option value="nice">Nice</option>
-          <option value="naughty">Naughty</option>
-        </select>
-      </div>
-      <button type="submit" class="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-        Send to Santa
-      </button>
-    </form>
-  </div>
-</template>
 </template>
 
 <script>
@@ -185,32 +147,7 @@ export default {
     return {
       expanded: false,
       tab: null,
-      santaForm: {
-        name: '',
-        wishlist: '',
-        status: 'nice'
-      }
     };
   },
-  methods: {
-    // Hadoken method
-    performHadoken() {
-      console.log("Hadoken!");
-      // Add your Hadoken logic here
-    }
-    },
-    // Santa Form Submission method
-    submitSantaForm() {
-      console.log('Santa Form Submitted:', this.santaForm);
-      // Add your form submission logic here
-      // Reset form after submission
-      this.santaForm = {
-        name: '',
-        wishlist: '',
-        status: 'nice'
-      };
-    }
-    // End of Santa Form Submission method
-  }
 };
 </script>
