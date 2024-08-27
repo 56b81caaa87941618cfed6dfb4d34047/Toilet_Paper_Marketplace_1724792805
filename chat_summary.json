@@ -1,5 +1,50 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'hadoken' button to be located within the app?\", \"option1\": \"On the main navigation bar for easy access\", \"option2\": \"Embedded within user profile pages for a more personalized interaction\"}, {\"question 2\": \"What action should occur when the 'hadoken' button is pressed?\", \"option1\": \"Display a fun, animated graphic of a hadoken move\", \"option2\": \"Send a playful, themed notification or message to another user\"}], \"input_token_count\": 521, \"output_token_count\": 115, \"time_taken\": \"0:00:02.703820\"}",
+        "message_id": "guest27082024220928",
+        "timestamp": "27082024220932",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Customizable user profiles for tracking and sharing trade histories\", \"checked\": true}, {\"feature\": \"Real-time chat functionality for buyer-seller communication\", \"checked\": false}, {\"feature\": \"User rating and review system for trader reliability\", \"checked\": false}, {\"feature\": \"Interactive map showing local and global trade opportunities\", \"checked\": false}, {\"feature\": \"Advanced search filters for finding specific brands or qualities of toilet paper\", \"checked\": true}, {\"feature\": \"Notification alerts for trade match or special offers\", \"checked\": true}], \"input_token_count\": 475, \"output_token_count\": 116, \"time_taken\": \"0:00:04.408469\"}",
+        "message_id": "guest27082024220928",
+        "timestamp": "27082024220934",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great idea! Adding a hadoken button right away.",
+        "message_id": "guest27082024220928",
+        "timestamp": "27082024220929",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a hadoken button",
+        "message_id": "guest27082024220928",
+        "timestamp": "27082024220928",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add captcha verification to contact form to prevent bots\", \"checked\": true}, {\"feature\": \"Implement customizable auto-reply for received contact messages\", \"checked\": false}, {\"feature\": \"Add a map to the contact page showing the North Pole location marker\", \"checked\": true}, {\"feature\": \"Incorporate a live chat feature for immediate assistance\", \"checked\": false}, {\"feature\": \"Offer an option for users to subscribe to Santa's newsletter\", \"checked\": true}, {\"feature\": \"Add a FAQ section related to common queries about contacting Santa\", \"checked\": true}], \"input_token_count\": 224, \"output_token_count\": 135, \"time_taken\": \"0:00:05.285351\"}",
+        "message_id": "guest27082024215601",
+        "timestamp": "27082024215611",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, will add a contact form for Santa.",
         "message_id": "guest27082024215601",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where should the hadoken button be placed within the app's interface?\", \"option1\": \"On the main screen for easy access\", \"option2\": \"In the tools or settings menu for occasional use\"}, {\"question 2\": \"What functionality should the hadoken button trigger?\", \"option1\": \"A special offer or discount popup for trading toilet paper\", \"option2\": \"A fun, interactive animation related to the app's theme\"}], \"input_token_count\": 419, \"output_token_count\": 104, \"time_taken\": \"0:00:08.145813\"}",
-        "message_id": "guest27082024212630",
-        "timestamp": "27082024212641",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Definitely, will add the hadoken button as requested.",
-        "message_id": "guest27082024212630",
-        "timestamp": "27082024212631",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "Add a hadoken button",
-        "message_id": "guest27082024212630",
-        "timestamp": "27082024212630",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive product search with voice command for easier browsing\", \"checked\": false}, {\"feature\": \"Real-time chat support for immediate assistance\", \"checked\": true}, {\"feature\": \"User profile customization for personalized experiences\", \"checked\": false}, {\"feature\": \"In-app currency for trading and rewards\", \"checked\": true}, {\"feature\": \"Sustainability score for products to promote eco-friendly choices\", \"checked\": false}, {\"feature\": \"Dark mode option for user interface comfort\", \"checked\": true}], \"input_token_count\": 311, \"output_token_count\": 119, \"time_taken\": \"0:00:05.297685\"}",
-        "message_id": "guest27082024212320",
-        "timestamp": "27082024212327",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the hadoken button to be positioned on the app?\", \"option1\": \"On the main trading screen, easily accessible for quick use.\", \"option2\": \"In a dedicated 'Actions' menu for users to access more specialized features.\"}, {\"question 2\": \"What function should the hadoken button perform within the context of the toilet paper trading marketplace?\", \"option1\": \"Initiate a trade offer or negotiation with another user.\", \"option2\": \"Display special offers or exclusive deals available for a limited time.\"}], \"input_token_count\": 357, \"output_token_count\": 123, \"time_taken\": \"0:00:03.879901\"}",
-        "message_id": "guest27082024212320",
-        "timestamp": "27082024212326",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "The user requested the addition of a \"hadoken\" button, to which the AI confirmed the implementation. The AI then posed questions to the user regarding the button's positioning within the app and its visual design, providing two options for each question. The user also received a checklist of additional features to consider implementing, which included options like an interactive product carousel and a user rating system. Subsequently, the user repeated their request for adding the \"hadoken\" button, prompting the AI to reiterate its acknowledgment and present another set of questions regarding the button's screen placement and action upon being pressed. The user then asked for an email form to be added to the project, specifically for contacting Santa, to which the AI expressed interest in details about the project. The AI's responses reflected efficiency, noting its readiness to incorporate all requested features while seeking user preferences for the implementation details.",
-        "timestamp": "27082024215603",
-        "message_id": "guest27082024215601"
+        "content": "In the conversation, the user frequently requested the addition of a \"hadoken\" button to the app, prompting multiple inquiries from the AI regarding the button's placement and functionality. The AI presented the user with options on where to position the button, such as on the main screen for easy access or in a dedicated menu, and what actions it should perform, like triggering trade offers or displaying special deals. The user also reaffirmed their desire for the button's integration. Additionally, the AI provided a checklist of potential features to implement, including an interactive product search and real-time chat support, with the user confirming the inclusion of certain features while indicating interest in others. Finally, the user shifted their focus to adding an email form for contacting Santa, leading the AI to request more details about this project. The AI maintained a positive and collaborative tone throughout, assuring that each requested feature would be incorporated.",
+        "timestamp": "27082024220932",
+        "message_id": "guest27082024220928"
     }
 ]
