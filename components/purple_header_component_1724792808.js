@@ -1,8 +1,15 @@
+<!--
+INSTRUCTION: Summary: HTML file that describes the header section including:
+INSTRUCTION: 1. Site branding with a logo on the left.
+INSTRUCTION: 2. Desktop navigation menu with links to different pages in the middle.
+INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
+-->
+
 <template>
-  <header class="w-full z-30" id="header-section-container" style="min-height: 390px">
+  <header class="w-full z-30" id="header-section-container">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
       <div class="flex items-center justify-between h-16 md:h-20">
-        <!-- Site Branding   -->
+        <!-- Site Branding -->
         <div id="site-branding" class="flex-1">
           <a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip">
             <img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar">
@@ -82,18 +89,6 @@
           </li>
         </ul>
 
-        <!-- Hadoken Button -->
-        <div class="flex-1 flex justify-end items-center ml-4">
-          <button
-            id="hadoken-button"
-            class="btn-sm transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-            @click="performHadoken"
-          >
-            <i class='bx bxs-hot mr-2'></i>
-            Hadoken!
-          </button>
-        </div>
-
         <!-- Mobile Menu -->
         <div class="md:hidden flex items-center ml-4">
           <button
@@ -101,7 +96,7 @@
             class="hamburger"
             :class="{ active: expanded }"
             @click.stop="expanded = !expanded"
-            :aria-controls="'mobile-nav'"
+            aria-controls="mobile-nav"
             :aria-expanded="expanded"
           >
             <span class="sr-only">Menu</span>
@@ -115,9 +110,11 @@
           <nav
             id="mobile-nav"
             class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
+            x-ref="mobileNav"
+            :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'"
             @click.outside="expanded = false"
             @keydown.escape.window="expanded = false"
-            v-cloak
+            x-cloak
           >
             <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]">
               <li>
@@ -141,31 +138,6 @@
       </div>
     </div>
   </header>
-
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-    <div class="bg-white rounded-lg shadow-lg p-6">
-      <h2 class="text-2xl font-bold mb-4 text-slate-800">Contact Santa</h2>
-      <form @submit.prevent="submitForm" class="space-y-4">
-        <div>
-          <label for="name" class="block text-sm font-medium text-slate-700">Name</label>
-          <input type="text" id="name" v-model="form.name" class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-purple-500 focus:ring-purple-500" required>
-        </div>
-        <div>
-          <label for="email" class="block text-sm font-medium text-slate-700">Email</label>
-          <input type="email" id="email" v-model="form.email" class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-purple-500 focus:ring-purple-500" required>
-        </div>
-        <div>
-          <label for="message" class="block text-sm font-medium text-slate-700">Message to Santa</label>
-          <textarea id="message" v-model="form.message" rows="4" class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-purple-500 focus:ring-purple-500" required></textarea>
-        </div>
-        <div>
-          <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
-            Send to Santa
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
 </template>
 
 <script>
@@ -175,28 +147,7 @@ export default {
     return {
       expanded: false,
       tab: null,
-      form: {
-        name: '',
-        email: '',
-        message: ''
-      }
     };
   },
-  methods: {
-    // Submit form method
-    submitForm() {
-      console.log('Form submitted:', this.form);
-      // Add your form submission logic here
-      // Reset form after submission
-      this.form = { name: '', email: '', message: '' };
-    }
-    // End of submit form method
-    },
-    // Hadoken method
-    performHadoken() {
-      console.log("Hadoken!");
-      // Add your Hadoken logic here
-    }
-    // End of Hadoken method
-  }
+};
 </script>
