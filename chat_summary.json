@@ -1,63 +1,97 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1724792808",
-        "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "user",
-        "content": "add an email form to contact santa",
-        "timestamp": "27082024210747",
-        "message_id": "guest27082024210747"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Great idea, I'll work on adding an email form.",
-        "timestamp": "27082024210748",
-        "message_id": "guest27082024210747"
-    },
-    {
         "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the email form to be positioned on the website?\", \"option1\": \"On the main page, easily accessible as soon as a user visits the site\", \"option2\": \"In the Contact Us section, found through the website's navigation menu\"}, {\"question 2\": \"Do you prefer a simple email form with just an email field and submit button, or a more detailed form including name, subject, and message sections?\", \"option1\": \"A simple form with just an email field and submit button\", \"option2\": \"A more detailed form including name, subject, and message sections\"}], \"input_token_count\": 271, \"output_token_count\": 139, \"time_taken\": \"0:00:05.460449\"}",
-        "timestamp": "27082024210754",
-        "message_id": "guest27082024210747"
-    },
-    {
-        "role": "user",
-        "content": "add a hadoken button",
-        "timestamp": "27082024211306",
-        "message_id": "guest27082024211306"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Got it, adding a hadoken button to the project.",
-        "timestamp": "27082024211307",
-        "message_id": "guest27082024211306"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the hadoken button to be positioned on the screen?\", \"option1\": \"At the bottom of the screen\", \"option2\": \"At the top of the screen\"}, {\"question 2\": \"What action should happen when the hadoken button is pressed?\", \"option1\": \"Display an animation of a hadoken\", \"option2\": \"Play a sound effect of a hadoken\"}], \"input_token_count\": 313, \"output_token_count\": 98, \"time_taken\": \"0:00:03.143441\"}",
-        "timestamp": "27082024211311",
-        "message_id": "guest27082024211306"
-    },
-    {
-        "role": "user",
-        "content": "Add a hadoken button",
-        "timestamp": "27082024211606",
-        "message_id": "guest27082024211606"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Sure, adding a hadoken button to the project.",
-        "timestamp": "27082024211607",
-        "message_id": "guest27082024211606"
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the Hadoken button to be positioned within the app interface?\", \"option1\": \"On the main trading screen, easily accessible for quick actions\", \"option2\": \"In a dedicated 'Special Features' menu, to keep the main interface clean\"}, {\"question 2\": \"Should the Hadoken button have any specific visual design or theme to match the app's aesthetic?\", \"option1\": \"Yes, it should match the app's overall design theme for consistency\", \"option2\": \"No, it should stand out with a unique design to highlight its special functionality\"}], \"input_token_count\": 327, \"output_token_count\": 133, \"time_taken\": \"0:00:04.605452\"}",
+        "message_id": "guest27082024211606",
+        "timestamp": "27082024211613",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive product carousel\", \"checked\": true}, {\"feature\": \"User rating and review system for products\", \"checked\": false}, {\"feature\": \"Real-time chat support for buyers and sellers\", \"checked\": false}, {\"feature\": \"Search functionality with filters for brand, price, and availability\", \"checked\": true}, {\"feature\": \"Secure payment gateway integration\", \"checked\": false}, {\"feature\": \"Social media share buttons for product listings\", \"checked\": true}], \"input_token_count\": 281, \"output_token_count\": 113, \"time_taken\": \"0:00:04.912871\"}",
+        "message_id": "guest27082024211606",
+        "timestamp": "27082024211613",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, adding a hadoken button to the project.",
+        "message_id": "guest27082024211606",
+        "timestamp": "27082024211607",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a hadoken button",
+        "message_id": "guest27082024211606",
+        "timestamp": "27082024211606",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the hadoken button to be positioned on the screen?\", \"option1\": \"At the bottom of the screen\", \"option2\": \"At the top of the screen\"}, {\"question 2\": \"What action should happen when the hadoken button is pressed?\", \"option1\": \"Display an animation of a hadoken\", \"option2\": \"Play a sound effect of a hadoken\"}], \"input_token_count\": 313, \"output_token_count\": 98, \"time_taken\": \"0:00:03.143441\"}",
+        "message_id": "guest27082024211306",
+        "timestamp": "27082024211311",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, adding a hadoken button to the project.",
+        "message_id": "guest27082024211306",
+        "timestamp": "27082024211307",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a hadoken button",
+        "message_id": "guest27082024211306",
+        "timestamp": "27082024211306",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the email form to be positioned on the website?\", \"option1\": \"On the main page, easily accessible as soon as a user visits the site\", \"option2\": \"In the Contact Us section, found through the website's navigation menu\"}, {\"question 2\": \"Do you prefer a simple email form with just an email field and submit button, or a more detailed form including name, subject, and message sections?\", \"option1\": \"A simple form with just an email field and submit button\", \"option2\": \"A more detailed form including name, subject, and message sections\"}], \"input_token_count\": 271, \"output_token_count\": 139, \"time_taken\": \"0:00:05.460449\"}",
+        "message_id": "guest27082024210747",
+        "timestamp": "27082024210754",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great idea, I'll work on adding an email form.",
+        "message_id": "guest27082024210747",
+        "timestamp": "27082024210748",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add an email form to contact santa",
+        "message_id": "guest27082024210747",
+        "timestamp": "27082024210747",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
         "timestamp": "27082024211613",
         "message_id": "guest27082024211606"
     }
