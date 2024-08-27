@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "Add a hadoken button",
+        "message_id": "guest27082024212630",
+        "timestamp": "27082024212630",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive product search with voice command for easier browsing\", \"checked\": false}, {\"feature\": \"Real-time chat support for immediate assistance\", \"checked\": true}, {\"feature\": \"User profile customization for personalized experiences\", \"checked\": false}, {\"feature\": \"In-app currency for trading and rewards\", \"checked\": true}, {\"feature\": \"Sustainability score for products to promote eco-friendly choices\", \"checked\": false}, {\"feature\": \"Dark mode option for user interface comfort\", \"checked\": true}], \"input_token_count\": 311, \"output_token_count\": 119, \"time_taken\": \"0:00:05.297685\"}",
         "message_id": "guest27082024212320",
