@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "Add a hadoken button",
+        "message_id": "guest27082024221504",
+        "timestamp": "27082024221504",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'll work on fixing the syntax error.",
         "message_id": "guest27082024221141",
