@@ -1,5 +1,50 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where should the hadoken button be placed within the app's interface?\", \"option1\": \"On the main screen for easy access\", \"option2\": \"In the tools or settings menu for occasional use\"}, {\"question 2\": \"What functionality should the hadoken button trigger?\", \"option1\": \"A special offer or discount popup for trading toilet paper\", \"option2\": \"A fun, interactive animation related to the app's theme\"}], \"input_token_count\": 419, \"output_token_count\": 104, \"time_taken\": \"0:00:08.145813\"}",
+        "message_id": "guest27082024212630",
+        "timestamp": "27082024212641",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Definitely, will add the hadoken button as requested.",
+        "message_id": "guest27082024212630",
+        "timestamp": "27082024212631",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a hadoken button",
+        "message_id": "guest27082024212630",
+        "timestamp": "27082024212630",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive product search with voice command for easier browsing\", \"checked\": false}, {\"feature\": \"Real-time chat support for immediate assistance\", \"checked\": true}, {\"feature\": \"User profile customization for personalized experiences\", \"checked\": false}, {\"feature\": \"In-app currency for trading and rewards\", \"checked\": true}, {\"feature\": \"Sustainability score for products to promote eco-friendly choices\", \"checked\": false}, {\"feature\": \"Dark mode option for user interface comfort\", \"checked\": true}], \"input_token_count\": 311, \"output_token_count\": 119, \"time_taken\": \"0:00:05.297685\"}",
+        "message_id": "guest27082024212320",
+        "timestamp": "27082024212327",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the hadoken button to be positioned on the app?\", \"option1\": \"On the main trading screen, easily accessible for quick use.\", \"option2\": \"In a dedicated 'Actions' menu for users to access more specialized features.\"}, {\"question 2\": \"What function should the hadoken button perform within the context of the toilet paper trading marketplace?\", \"option1\": \"Initiate a trade offer or negotiation with another user.\", \"option2\": \"Display special offers or exclusive deals available for a limited time.\"}], \"input_token_count\": 357, \"output_token_count\": 123, \"time_taken\": \"0:00:03.879901\"}",
+        "message_id": "guest27082024212320",
+        "timestamp": "27082024212326",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Certainly, I'll add a button for hadoken.",
         "message_id": "guest27082024212320",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "user",
-        "content": "Add a hadoken button",
-        "message_id": "guest27082024211606",
-        "timestamp": "27082024211606",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the hadoken button to be positioned on the screen?\", \"option1\": \"At the bottom of the screen\", \"option2\": \"At the top of the screen\"}, {\"question 2\": \"What action should happen when the hadoken button is pressed?\", \"option1\": \"Display an animation of a hadoken\", \"option2\": \"Play a sound effect of a hadoken\"}], \"input_token_count\": 313, \"output_token_count\": 98, \"time_taken\": \"0:00:03.143441\"}",
-        "message_id": "guest27082024211306",
-        "timestamp": "27082024211311",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Got it, adding a hadoken button to the project.",
-        "message_id": "guest27082024211306",
-        "timestamp": "27082024211307",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add a hadoken button",
-        "message_id": "guest27082024211306",
-        "timestamp": "27082024211306",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the email form to be positioned on the website?\", \"option1\": \"On the main page, easily accessible as soon as a user visits the site\", \"option2\": \"In the Contact Us section, found through the website's navigation menu\"}, {\"question 2\": \"Do you prefer a simple email form with just an email field and submit button, or a more detailed form including name, subject, and message sections?\", \"option1\": \"A simple form with just an email field and submit button\", \"option2\": \"A more detailed form including name, subject, and message sections\"}], \"input_token_count\": 271, \"output_token_count\": 139, \"time_taken\": \"0:00:05.460449\"}",
-        "message_id": "guest27082024210747",
-        "timestamp": "27082024210754",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "In a conversation between a user and an AI assistant, the user requested to add an email form to contact Santa. The AI acknowledged this as a great idea and stated it would work on implementing it. It then asked the user to describe the project in further detail for better understanding. The AI also noted that it is trained on data only up to October 2023.",
-        "timestamp": "27082024212321",
-        "message_id": "guest27082024212320"
+        "content": "The user requested the addition of a hadoken button and an email form. The AI acknowledged the user's request to add a hadoken button to the project, asking for details on its positioning and action when pressed. Two options were provided for both questions: the positioning of the button at either the bottom or the top of the screen, and the action of displaying an animation or playing a sound effect when pressed. Later, the user reiterated the request for the email form, indicating it should be included as a way to contact Santa. The AI responded positively, asking for more details about the project to better assist with the email form.",
+        "timestamp": "27082024212641",
+        "message_id": "guest27082024212630"
     }
 ]
