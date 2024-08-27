@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the email form to be positioned on the website?\", \"option1\": \"On the main page, easily accessible as soon as a user visits the site\", \"option2\": \"In the Contact Us section, found through the website's navigation menu\"}, {\"question 2\": \"Do you prefer a simple email form with just an email field and submit button, or a more detailed form including name, subject, and message sections?\", \"option1\": \"A simple form with just an email field and submit button\", \"option2\": \"A more detailed form including name, subject, and message sections\"}], \"input_token_count\": 271, \"output_token_count\": 139, \"time_taken\": \"0:00:05.460449\"}",
+        "message_id": "guest27082024210747",
+        "timestamp": "27082024210754",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Great idea, I'll work on adding an email form.",
         "message_id": "guest27082024210747",
