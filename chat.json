@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "Add an email form to contact santa",
+        "message_id": "guest27082024212732",
+        "timestamp": "27082024212732",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where should the hadoken button be placed within the app's interface?\", \"option1\": \"On the main screen for easy access\", \"option2\": \"In the tools or settings menu for occasional use\"}, {\"question 2\": \"What functionality should the hadoken button trigger?\", \"option1\": \"A special offer or discount popup for trading toilet paper\", \"option2\": \"A fun, interactive animation related to the app's theme\"}], \"input_token_count\": 419, \"output_token_count\": 104, \"time_taken\": \"0:00:08.145813\"}",
         "message_id": "guest27082024212630",
