@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the email form to be positioned on the website?\", \"option1\": \"On the main page, easily accessible as soon as a user visits the site\", \"option2\": \"In the Contact Us section, found through the website's navigation menu\"}, {\"question 2\": \"Do you prefer a simple email form with just an email field and submit button, or a more detailed form including name, subject, and message sections?\", \"option1\": \"A simple form with just an email field and submit button\", \"option2\": \"A more detailed form including name, subject, and message sections\"}], \"input_token_count\": 271, \"output_token_count\": 139, \"time_taken\": \"0:00:05.460449\"}",
         "timestamp": "27082024210754",
         "message_id": "guest27082024210747"
+    },
+    {
+        "role": "user",
+        "content": "add a hadoken button",
+        "timestamp": "27082024211306",
+        "message_id": "guest27082024211306"
     }
 ]
