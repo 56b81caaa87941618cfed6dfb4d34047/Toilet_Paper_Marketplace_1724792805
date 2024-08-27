@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Will add a shoryuken button to the project.",
+        "message_id": "guest27082024222317",
+        "timestamp": "27082024222318",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Add a shoryouken button",
         "message_id": "guest27082024222317",
