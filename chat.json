@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Can you clarify where you would like the shoryuken button to be positioned within the app interface?\", \"option1\": \"On the main trading interface next to search bar\", \"option2\": \"In the user profile section for quick access\"}, {\"question 2\": \"What action should be triggered when the shoryuken button is pressed?\", \"option1\": \"It should initiate a new trade proposal\", \"option2\": \"It should display a pop-up with the top trending toilet paper trades\"}], \"input_token_count\": 274, \"output_token_count\": 117, \"time_taken\": \"0:00:03.368251\"}",
+        "message_id": "guest27082024222634",
+        "timestamp": "27082024222643",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Noted, adding a shoryuken button to the project.",
         "message_id": "guest27082024222634",
