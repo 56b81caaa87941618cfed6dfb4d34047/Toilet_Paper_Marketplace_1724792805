@@ -48,43 +48,6 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
             Get Started
             <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span>
           </a>
-
-          <!-- Shoryuken Button -->
-          <div class="mt-4">
-            <button
-              id="shoryuken-button"
-              class="btn transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-red-600 to-red-400 hover:from-red-500 hover:to-red-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-              @click="performShoryuken"
-            >
-              <i class='bx bxs-flame mr-2'></i>
-              Shoryuken!
-            </button>
-          </div>
-
-          <!-- Email Form to Contact Santa -->
-          <div class="mt-8 bg-white bg-opacity-20 rounded-lg p-6 shadow-lg">
-            <h3 class="text-xl font-semibold text-white mb-4">Contact Santa</h3>
-            <form @submit.prevent="submitForm" class="space-y-4">
-              <div>
-                <label for="name" class="block text-sm font-medium text-white">Name</label>
-                <input type="text" id="name" v-model="form.name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring focus:ring-purple-500 focus:ring-opacity-50" required>
-              </div>
-              <div>
-                <label for="email" class="block text-sm font-medium text-white">Email</label>
-                <input type="email" id="email" v-model="form.email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring focus:ring-purple-500 focus:ring-opacity-50" required>
-              </div>
-              <div>
-                <label for="message" class="block text-sm font-medium text-white">Message to Santa</label>
-                <textarea id="message" v-model="form.message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring focus:ring-purple-500 focus:ring-opacity-50" required></textarea>
-              </div>
-              <div>
-                <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
-                  Send to Santa
-                  <i class='bx bx-envelope ml-2'></i>
-                </button>
-              </div>
-            </form>
-          </div>
         </div>
       </div>
     </div>
@@ -97,29 +60,8 @@ export default {
   data() {
     return {
       expanded: false,
-      tab: null,
-      form: {
-        name: '',
-        email: '',
-        message: ''
-      }
+      tab: null
     };
-  },
-  methods: {
-    // Submit form method
-    submitForm() {
-      console.log('Form submitted:', this.form);
-      // Add your form submission logic here
-      // Reset form after submission
-      this.form = { name: '', email: '', message: '' };
-    }
-    },
-    // Shoryuken method
-    performShoryuken() {
-      console.log("Shoryuken!");
-      // Add your Shoryuken logic here
-    }
-    // End of Shoryuken method
   }
 };
 </script>
