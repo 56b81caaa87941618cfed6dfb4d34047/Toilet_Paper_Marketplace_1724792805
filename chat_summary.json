@@ -1,5 +1,23 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Certainly, I'll add a button for hadoken.",
+        "message_id": "guest27082024212320",
+        "timestamp": "27082024212321",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a hadoken button",
+        "message_id": "guest27082024212320",
+        "timestamp": "27082024212320",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the Hadoken button to be positioned within the app interface?\", \"option1\": \"On the main trading screen, easily accessible for quick actions\", \"option2\": \"In a dedicated 'Special Features' menu, to keep the main interface clean\"}, {\"question 2\": \"Should the Hadoken button have any specific visual design or theme to match the app's aesthetic?\", \"option1\": \"Yes, it should match the app's overall design theme for consistency\", \"option2\": \"No, it should stand out with a unique design to highlight its special functionality\"}], \"input_token_count\": 327, \"output_token_count\": 133, \"time_taken\": \"0:00:04.605452\"}",
         "message_id": "guest27082024211606",
@@ -72,27 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_acknowledge",
-        "content": "Great idea, I'll work on adding an email form.",
-        "message_id": "guest27082024210747",
-        "timestamp": "27082024210748",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add an email form to contact santa",
-        "message_id": "guest27082024210747",
-        "timestamp": "27082024210747",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "Can you describe the project a bit more?",
-        "timestamp": "27082024211613",
-        "message_id": "guest27082024211606"
+        "content": "In a conversation between a user and an AI assistant, the user requested to add an email form to contact Santa. The AI acknowledged this as a great idea and stated it would work on implementing it. It then asked the user to describe the project in further detail for better understanding. The AI also noted that it is trained on data only up to October 2023.",
+        "timestamp": "27082024212321",
+        "message_id": "guest27082024212320"
     }
 ]
