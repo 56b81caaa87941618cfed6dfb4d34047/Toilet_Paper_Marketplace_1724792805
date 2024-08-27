@@ -46,5 +46,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nAdd an email form to contact santa"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\nThe user engaged with the AI assistant to implement various features in an app, specifically a 'hadoken' button. They were presented with choices regarding the button's location and functionality, such as placing it on the main navigation bar or embedding it within user profiles. The user requested to add a hadoken button multiple times, and the AI acknowledged each request affirmatively. Additionally, the user explored other features to implement, like customizable user profiles, real-time chat functionality, and an email form for contacting Santa. The AI noted these suggestions, confirming the addition of these features and asking clarifying questions, including the design and specific positioning of the button and email form. Ultimately, the user was asked about their project to better understand their needs as the implementation progressed.\nAI: On it, adding a shoryuken button to the project.\nUser: Add a shoryouken button\nAI: Sure, adding a Hadoken button to the project.\nUser: Add a hadoken button\nAI: Sure, I'll work on fixing the syntax error.\nUser: Fix the syntax error in this component\nAI: Working on adding a shoryuken button.\nUser: Add a shoryouken button\n\nThis is the user's current request of changes to be made:\nadd a shoryouken button"
     }
 ]
