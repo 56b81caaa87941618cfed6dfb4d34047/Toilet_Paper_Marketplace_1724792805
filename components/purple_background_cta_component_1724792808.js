@@ -49,6 +49,14 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
             <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span>
           </a>
 
+          <!-- Shoryuken Button -->
+          <button id="shoryuken-button" class="mt-4 btn transition duration-150 ease-in-out group text-white bg-gradient-to-r from-red-600 to-orange-400 hover:from-red-500 hover:to-orange-300 rounded-lg px-6 py-3 shadow-lg flex items-center justify-center" @click="performShoryuken">
+            <i class='bx bx-up-arrow-alt mr-2'></i>
+            Shoryuken!
+          </button>
+
+          <!-- Email Form to Contact Santa -->
+
           <!-- Email Form to Contact Santa -->
           <div class="mt-8 bg-white bg-opacity-20 rounded-lg p-6 shadow-lg">
             <h3 class="text-xl font-semibold text-white mb-4">Contact Santa</h3>
@@ -101,7 +109,13 @@ export default {
       // Reset form after submission
       this.form = { name: '', email: '', message: '' };
     }
-    // End of submit form method
+    },
+    // Shoryuken method
+    performShoryuken() {
+      console.log("Shoryuken!");
+      // Add your Shoryuken logic here
+    }
+    // End of Shoryuken method
   }
 };
 </script>
