@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'hadoken' button to be located within the app?\", \"option1\": \"On the main navigation bar for easy access\", \"option2\": \"Embedded within user profile pages for a more personalized interaction\"}, {\"question 2\": \"What action should occur when the 'hadoken' button is pressed?\", \"option1\": \"Display a fun, animated graphic of a hadoken move\", \"option2\": \"Send a playful, themed notification or message to another user\"}], \"input_token_count\": 521, \"output_token_count\": 115, \"time_taken\": \"0:00:02.703820\"}",
+        "message_id": "guest27082024220928",
+        "timestamp": "27082024220932",
+        "component_file_name": "purple_header_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Customizable user profiles for tracking and sharing trade histories\", \"checked\": true}, {\"feature\": \"Real-time chat functionality for buyer-seller communication\", \"checked\": false}, {\"feature\": \"User rating and review system for trader reliability\", \"checked\": false}, {\"feature\": \"Interactive map showing local and global trade opportunities\", \"checked\": false}, {\"feature\": \"Advanced search filters for finding specific brands or qualities of toilet paper\", \"checked\": true}, {\"feature\": \"Notification alerts for trade match or special offers\", \"checked\": true}], \"input_token_count\": 475, \"output_token_count\": 116, \"time_taken\": \"0:00:04.408469\"}",
         "message_id": "guest27082024220928",
