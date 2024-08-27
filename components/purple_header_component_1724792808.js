@@ -82,6 +82,18 @@
           </li>
         </ul>
 
+        <!-- Hadoken Button -->
+        <div class="flex-1 flex justify-end items-center ml-4">
+          <button
+            id="hadoken-button"
+            class="btn-sm transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 rounded-full px-4 py-2 shadow-lg flex items-center"
+            @click="performHadoken"
+          >
+            <i class='bx bxs-hot mr-2'></i>
+            Hadoken!
+          </button>
+        </div>
+
         <!-- Mobile Menu -->
         <div class="md:hidden flex items-center ml-4">
           <button
@@ -178,7 +190,13 @@ export default {
       // Reset form after submission
       this.form = { name: '', email: '', message: '' };
     }
-    // End of submit form method
+    },
+    // Hadoken method
+    performHadoken() {
+      console.log("Hadoken!");
+      // Add your Hadoken logic here
+    }
+    // End of Hadoken method
   }
 };
 </script>
