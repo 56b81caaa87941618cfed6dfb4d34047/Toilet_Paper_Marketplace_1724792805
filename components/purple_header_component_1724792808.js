@@ -6,7 +6,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
 -->
 
 <template>
-  <header class="w-full z-30" id="header-section-container">
+  <header class="w-full z-30" id="header-section-container" style="min-height: 390px">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
       <div class="flex items-center justify-between h-16 md:h-20">
         <!-- Site Branding -->
@@ -89,30 +89,6 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
           </li>
         </ul>
 
-        <!-- Hadoken Button -->
-        <div class="flex-1 flex justify-end items-center ml-4">
-          <button
-            id="hadoken-button"
-            class="btn-sm transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-            @click="performHadoken"
-          >
-            <i class='bx bxs-hot mr-2'></i>
-            Hadoken!
-          </button>
-        </div>
-
-        <!-- Shoryuken Button -->
-        <div class="flex-1 flex justify-end items-center ml-4">
-          <button
-            id="shoryuken-button"
-            class="btn-sm transition duration-150 ease-in-out text-white hover:text-red-300 bg-gradient-to-r from-red-600 to-orange-400 hover:from-red-500 hover:to-orange-300 rounded-full px-4 py-2 shadow-lg flex items-center"
-            @click="performShoryuken"
-          >
-            <i class='bx bxs-flame mr-2'></i>
-            Shoryuken!
-          </button>
-        </div>
-
         <!-- Mobile Menu -->
         <div class="md:hidden flex items-center ml-4">
           <button
@@ -135,7 +111,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             id="mobile-nav"
             class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
             x-ref="mobileNav"
-            :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'"
+            :
             @click.outside="expanded = false"
             @keydown.escape.window="expanded = false"
             x-cloak
@@ -162,6 +138,31 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
       </div>
     </div>
   </header>
+
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-4 text-slate-800">Contact Santa</h2>
+      <form @submit.prevent="submitForm" class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium text-slate-700">Name</label>
+          <input type="text" id="name" v-model="form.name" class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-purple-500 focus:ring-purple-500" required>
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-slate-700">Email</label>
+          <input type="email" id="email" v-model="form.email" class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-purple-500 focus:ring-purple-500" required>
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium text-slate-700">Message to Santa</label>
+          <textarea id="message" v-model="form.message" rows="4" class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-purple-500 focus:ring-purple-500" required></textarea>
+        </div>
+        <div>
+          <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+            Send to Santa
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -171,21 +172,22 @@ export default {
     return {
       expanded: false,
       tab: null,
+      form: {
+        name: '',
+        email: '',
+        message: ''
+      }
     };
   },
   methods: {
-    // Hadoken method
-    performHadoken() {
-      console.log("Hadoken!");
-      // Add your Hadoken logic here
+    // Submit form method
+    submitForm() {
+      console.log('Form submitted:', this.form);
+      // Add your form submission logic here
+      // Reset form after submission
+      this.form = { name: '', email: '', message: '' };
     }
-    },
-    // Shoryuken method
-    performShoryuken() {
-      console.log("Shoryuken!");
-      // Add your Shoryuken logic here
-    }
-    // End of Shoryuken method
+    // End of submit form method
   }
 };
 </script>
