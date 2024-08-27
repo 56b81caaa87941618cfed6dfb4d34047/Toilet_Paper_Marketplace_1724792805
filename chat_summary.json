@@ -1,5 +1,50 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'shoryuken' button to be positioned within the app's interface?\", \"option1\": \"In a prominent place, such as the header or footer.\", \"option2\": \"Integrated within the main content or alongside specific features.\"}, {\"question 2\": \"What action should be triggered when the 'shoryuken' button is pressed?\", \"option1\": \"Display a fun animation or visual effect.\", \"option2\": \"Execute a specific function or command within the app.\"}], \"input_token_count\": 532, \"output_token_count\": 118, \"time_taken\": \"0:00:03.089107\"}",
+        "message_id": "guest27082024230109",
+        "timestamp": "27082024230114",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a Hadoken button for a fun projectile animation\", \"checked\": false}, {\"feature\": \"Implement an email form for contacting Santa\", \"checked\": false}, {\"feature\": \"Integrate a live chat support system for real-time assistance\", \"checked\": true}, {\"feature\": \"Set up automated email responses for user inquiries\", \"checked\": true}, {\"feature\": \"Add visual/sound effects for when the Shoryuken button is pressed\", \"checked\": true}, {\"feature\": \"Enable user customization of button placements on the mobile app interface\", \"checked\": false}], \"input_token_count\": 486, \"output_token_count\": 135, \"time_taken\": \"0:00:04.913516\"}",
+        "message_id": "guest27082024230109",
+        "timestamp": "27082024230116",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Alright, I'll add a shoryuken button to the interface.",
+        "message_id": "guest27082024230109",
+        "timestamp": "27082024230110",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a shoryouken button",
+        "message_id": "guest27082024230109",
+        "timestamp": "27082024230109",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'shoryuken' button positioned on the webpage?\", \"option1\": \"Below the 'hadoken' button\", \"option2\": \"At the bottom of the homepage\"}, {\"question 2\": \"What action should the 'shoryuken' button trigger when clicked?\", \"option1\": \"Open a modal with detailed information\", \"option2\": \"Navigate to a new page with a special offer\"}], \"input_token_count\": 602, \"output_token_count\": 104, \"time_taken\": \"0:00:02.702010\"}",
+        "message_id": "guest27082024222914",
+        "timestamp": "27082024222921",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, adding a shoryuken button as requested.",
         "message_id": "guest27082024222914",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a 'Hadoken' button for another special action\", \"checked\": true}, {\"feature\": \"User profile customization options\", \"checked\": false}, {\"feature\": \"In-app messaging system for direct user communication\", \"checked\": true}, {\"feature\": \"Real-time inventory updates for toilet paper stocks\", \"checked\": true}, {\"feature\": \"Ratings and reviews section for user feedback\", \"checked\": false}, {\"feature\": \"Advanced search filters by brand, price, and rating\", \"checked\": true}], \"input_token_count\": 525, \"output_token_count\": 110, \"time_taken\": \"0:00:03.603680\"}",
-        "message_id": "guest27082024222317",
-        "timestamp": "27082024222323",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Will add a shoryuken button to the project.",
-        "message_id": "guest27082024222317",
-        "timestamp": "27082024222318",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "Add a shoryouken button",
-        "message_id": "guest27082024222317",
-        "timestamp": "27082024222317",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the shoryouken button to be located within the app?\", \"option1\": \"On the main navigation bar\", \"option2\": \"Embedded within user profiles\"}, {\"question 2\": \"What specific action should the shoryouken button perform when clicked?\", \"option1\": \"Initiate a trade offer for toilet paper\", \"option2\": \"Open a real-time chat with another user\"}], \"input_token_count\": 526, \"output_token_count\": 100, \"time_taken\": \"0:00:02.230536\"}",
-        "message_id": "guest27082024221822",
-        "timestamp": "27082024221827",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Custom animation for Shoryouken button activation\", \"checked\": true}, {\"feature\": \"Sound effect upon Shoryouken button press\", \"checked\": true}, {\"feature\": \"Visual feedback for successful/unsuccessful Shoryouken action (e.g., color change)\", \"checked\": false}, {\"feature\": \"Configurable placement options for Shoryouken button within the app\", \"checked\": true}, {\"feature\": \"Option to set Shoryouken button as a quick action or gesture\", \"checked\": false}, {\"feature\": \"Tutorial tooltip for first-time users on how to use the Shoryouken button\", \"checked\": true}], \"input_token_count\": 480, \"output_token_count\": 139, \"time_taken\": \"0:00:05.979145\"}",
-        "message_id": "guest27082024221822",
-        "timestamp": "27082024221831",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "In the conversation, the user repeatedly requested the addition of various features to a project, showing consistent interest in integrating fun interactive elements like a \"shoryuken\" button and a \"hadoken\" button. The AI responded positively to each request, stating it would add these features. Additionally, the user asked to implement an email form for contacting Santa, to which the AI confirmed it would work on it. Throughout the dialogue, the AI also presented the user with a checklist of potential features, some of which were checked off as completed, such as a live chat support system and automated email responses. The AI actively engaged with the user, asking clarifying questions about placements and functionalities of the buttons, and acknowledging syntax errors that needed fixing. The conversation illustrated a collaborative effort between the user and the AI to enhance the project with user-friendly and thematic functionalities.",
-        "timestamp": "27082024222916",
-        "message_id": "guest27082024222914"
+        "content": "In the conversation, the user engaged with the AI assistant to implement various features in their application, primarily involving the addition of buttons for functions related to trading toilet paper. The user requested the addition of a \"Shoryouken\" button, with the AI confirming it would be added, following up with questions about its placement and functionality. The user consistently requested the inclusion of a \"Hadoken\" button as well, to which the AI repeatedly acknowledged their request and asked similar clarifying questions. \n\nThe user also expressed a desire for other features, which the AI presented in lists, including customizable user profiles, real-time inventory updates, an in-app messaging system, email forms for contacting Santa, and various user feedback options. Features like a \"Live chat support\" and \"Secure payment gateway integration\" were frequently highlighted. The AI acknowledged each request and confirmed the implementation of additional features such as a contact form for users to reach out to Santa and various user customization options.\n\nIn summary, the user and AI collaborated on enhancing an app, with multiple iterations and confirmations regarding the features they desired to implement, ensuring a user-friendly experience with fun, interactive elements.",
+        "timestamp": "27082024230114",
+        "message_id": "guest27082024230109"
     }
 ]
