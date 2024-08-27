@@ -1,5 +1,50 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a 'Hadoken' button for another special action\", \"checked\": true}, {\"feature\": \"User profile customization options\", \"checked\": false}, {\"feature\": \"In-app messaging system for direct user communication\", \"checked\": true}, {\"feature\": \"Real-time inventory updates for toilet paper stocks\", \"checked\": true}, {\"feature\": \"Ratings and reviews section for user feedback\", \"checked\": false}, {\"feature\": \"Advanced search filters by brand, price, and rating\", \"checked\": true}], \"input_token_count\": 525, \"output_token_count\": 110, \"time_taken\": \"0:00:03.603680\"}",
+        "message_id": "guest27082024222317",
+        "timestamp": "27082024222323",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Will add a shoryuken button to the project.",
+        "message_id": "guest27082024222317",
+        "timestamp": "27082024222318",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a shoryouken button",
+        "message_id": "guest27082024222317",
+        "timestamp": "27082024222317",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the shoryouken button to be located within the app?\", \"option1\": \"On the main navigation bar\", \"option2\": \"Embedded within user profiles\"}, {\"question 2\": \"What specific action should the shoryouken button perform when clicked?\", \"option1\": \"Initiate a trade offer for toilet paper\", \"option2\": \"Open a real-time chat with another user\"}], \"input_token_count\": 526, \"output_token_count\": 100, \"time_taken\": \"0:00:02.230536\"}",
+        "message_id": "guest27082024221822",
+        "timestamp": "27082024221827",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Custom animation for Shoryouken button activation\", \"checked\": true}, {\"feature\": \"Sound effect upon Shoryouken button press\", \"checked\": true}, {\"feature\": \"Visual feedback for successful/unsuccessful Shoryouken action (e.g., color change)\", \"checked\": false}, {\"feature\": \"Configurable placement options for Shoryouken button within the app\", \"checked\": true}, {\"feature\": \"Option to set Shoryouken button as a quick action or gesture\", \"checked\": false}, {\"feature\": \"Tutorial tooltip for first-time users on how to use the Shoryouken button\", \"checked\": true}], \"input_token_count\": 480, \"output_token_count\": 139, \"time_taken\": \"0:00:05.979145\"}",
+        "message_id": "guest27082024221822",
+        "timestamp": "27082024221831",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a shoryouken button",
         "message_id": "guest27082024221822",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_acknowledge",
-        "content": "On it, adding a shoryuken button to the project.",
-        "message_id": "guest27082024221529",
-        "timestamp": "27082024221531",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "Add a shoryouken button",
-        "message_id": "guest27082024221529",
-        "timestamp": "27082024221530",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"User profile customization options, to set favorite brands or preferences for quicker access\", \"checked\": true}, {\"feature\": \"Real-time stock level indicators for products\", \"checked\": false}, {\"feature\": \"Community rating and review section for each toilet paper brand\", \"checked\": true}, {\"feature\": \"Interactive hadoken animation for engaging user experience\", \"checked\": false}, {\"feature\": \"Push notifications for restock alerts on favored brands\", \"checked\": true}, {\"feature\": \"Trade history and tracking for users\", \"checked\": false}], \"input_token_count\": 223, \"output_token_count\": 115, \"time_taken\": \"0:00:04.066803\"}",
-        "message_id": "guest27082024221504",
-        "timestamp": "27082024221509",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Sure, adding a Hadoken button to the project.",
-        "message_id": "guest27082024221504",
-        "timestamp": "27082024221505",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "Add a hadoken button",
-        "message_id": "guest27082024221504",
-        "timestamp": "27082024221504",
-        "component_file_name": "purple_header_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "In the conversation, the user engaged with the AI assistant to incorporate various buttons and features into an application. The user initially requested to fix a syntax error, which the AI acknowledged. Then, the user asked to add a \"shoryuken\" button, to which the AI responded affirmatively and began clarifying placement and functionality with the user. Following that, the user requested a \"hadoken\" button, and the AI proposed placement options and actions for this button as well. \n\nAs the conversation progressed, the user asked to add a contact form for Santa, and the AI confirmed it would be added. The user then requested an email form, which the AI also agreed to implement, asking for specifics regarding the form's placement and details. Throughout the exchange, the AI acknowledged each request and provided options concerning the functionality and design of various buttons, illustrating a collaborative design process to improve the app interface and user experience. The AI asked for clarifications multiple times, indicating a responsive approach in implementing the user's ideas.",
-        "timestamp": "27082024221822",
-        "message_id": "guest27082024221822"
+        "content": "In the conversation, the user requested several buttons and forms to be added to a project, specifically a \"shoryuken\" button, a \"hadoken\" button, and an email form for contacting Santa. The AI confirmed the addition of the shoryuken and hadoken buttons and acknowledged the request to fix a syntax error. The AI also asked the user where they would like the shoryuken and hadoken buttons positioned within the app and what actions they should trigger, offering two options for each question. The user provided their preferences, and the AI acknowledged their inputs.\n\nAdditionally, the AI provided lists of potential features for the project, including user profile customization, real-time stock indicators, community ratings, and notifications. The user indicated which features they wanted implemented, with several being checked as \"true.\" They also reiterated the request for the hadoken button multiple times, prompting further questions from the AI regarding its placement and functionality. \n\nFinally, the user requested an email form for contacting Santa. The AI acknowledged this request and asked the user to clarify the desired placement and details of the form, which the user also responded to. Throughout the conversation, the AI consistently confirmed tasks and offered to integrate the suggested features into the project while collecting the user's input for optimal design decisions.",
+        "timestamp": "27082024222323",
+        "message_id": "guest27082024222317"
     }
 ]
