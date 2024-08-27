@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Sure, adding a hadoken button to the project.",
+        "message_id": "guest27082024211606",
+        "timestamp": "27082024211607",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Add a hadoken button",
         "message_id": "guest27082024211606",

@@ -48,5 +48,11 @@
         "content": "Add a hadoken button",
         "timestamp": "27082024211606",
         "message_id": "guest27082024211606"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, adding a hadoken button to the project.",
+        "timestamp": "27082024211607",
+        "message_id": "guest27082024211606"
     }
 ]
