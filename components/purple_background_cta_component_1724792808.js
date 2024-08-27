@@ -73,6 +73,21 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
               </div>
             </form>
           </div>
+
+          <!-- Shoryuken Button -->
+          <div class="mt-8">
+            <button
+              id="shoryuken-button"
+              @click="performShoryuken"
+              class="btn transition duration-150 ease-in-out text-white hover:text-yellow-300 bg-gradient-to-r from-red-600 to-orange-400 hover:from-red-500 hover:to-orange-300 rounded-full px-6 py-3 shadow-lg flex items-center"
+            >
+              <i class='bx bxs-upvote mr-2'></i>
+              Shoryuken!
+            </button>
+          </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -101,7 +116,15 @@ export default {
       // Reset form after submission
       this.form = { name: '', email: '', message: '' };
     }
+    },
     // End of submit form method
+
+    // Shoryuken method
+    performShoryuken() {
+      console.log("Shoryuken!");
+      // Add your Shoryuken logic here
+    }
+    // End of Shoryuken method
   }
 };
 </script>
