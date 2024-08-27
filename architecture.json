@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\nCan you describe the project a bit more?\nAI: Sure, adding a hadoken button to the project.\nUser: Add a hadoken button\nAI: Got it, adding a hadoken button to the project.\nUser: add a hadoken button\nAI: Great idea, I'll work on adding an email form.\nUser: add an email form to contact santa\n\nThis is the user's current request of changes to be made:\nAdd a hadoken button"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\nIn a conversation between a user and an AI assistant, the user requested to add an email form to contact Santa. The AI acknowledged this as a great idea and stated it would work on implementing it. It then asked the user to describe the project in further detail for better understanding. The AI also noted that it is trained on data only up to October 2023.\nAI: Certainly, I'll add a button for hadoken.\nUser: Add a hadoken button\nAI: Sure, adding a hadoken button to the project.\nUser: Add a hadoken button\nAI: Got it, adding a hadoken button to the project.\nUser: add a hadoken button\n\nThis is the user's current request of changes to be made:\nAdd a hadoken button"
     }
 ]
