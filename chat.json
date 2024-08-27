@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "Add a shoryouken button",
+        "message_id": "guest27082024222317",
+        "timestamp": "27082024222317",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the shoryouken button to be located within the app?\", \"option1\": \"On the main navigation bar\", \"option2\": \"Embedded within user profiles\"}, {\"question 2\": \"What specific action should the shoryouken button perform when clicked?\", \"option1\": \"Initiate a trade offer for toilet paper\", \"option2\": \"Open a real-time chat with another user\"}], \"input_token_count\": 526, \"output_token_count\": 100, \"time_taken\": \"0:00:02.230536\"}",
         "message_id": "guest27082024221822",
