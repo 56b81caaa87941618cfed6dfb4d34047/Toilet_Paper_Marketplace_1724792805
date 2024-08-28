@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a hadoken button",
+        "message_id": "guest28082024071623",
+        "timestamp": "28082024071623",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, adding a Hadoken button to the project.",
         "message_id": "guest28082024071530",
