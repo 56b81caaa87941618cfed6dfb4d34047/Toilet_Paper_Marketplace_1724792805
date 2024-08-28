@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'll update the button text to \"Hadoken\".",
+        "message_id": "guest28082024075144",
+        "timestamp": "28082024075155",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Change the getting started button to say hadoken",
         "message_id": "guest28082024075144",
