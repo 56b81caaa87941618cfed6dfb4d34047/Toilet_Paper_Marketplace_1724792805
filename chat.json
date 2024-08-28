@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Contact Santa' form to be positioned on the website?\", \"option1\": \"On the main navigation menu\", \"option2\": \"As a pop-up form accessible from every page\"}, {\"question 2\": \"What information do you want users to provide in the 'Contact Santa' form?\", \"option1\": \"Name, Email, and Message\", \"option2\": \"Name, Email, Message, and a section to upload a wish list\"}], \"input_token_count\": 270, \"output_token_count\": 111, \"time_taken\": \"0:00:04.097215\"}",
+        "message_id": "guest28082024072700",
+        "timestamp": "28082024072708",
+        "component_file_name": "dark_footer_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'll add a form to contact Santa.",
         "message_id": "guest28082024072700",
