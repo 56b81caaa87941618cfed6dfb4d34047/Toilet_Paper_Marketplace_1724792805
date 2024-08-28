@@ -1,6 +1,51 @@
 [
     {
         "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the Hadoken button to be placed within the app?\", \"option1\": \"On the main trading interface near the search bar\", \"option2\": \"In the user profile section for easy access\"}, {\"question 2\": \"What specific action should the Hadoken button trigger?\", \"option1\": \"Initiate a unique trading request to other users\", \"option2\": \"Open a special offer or discount section on the platform\"}], \"input_token_count\": 582, \"output_token_count\": 105, \"time_taken\": \"0:00:02.680794\"}",
+        "message_id": "guest28082024074845",
+        "timestamp": "28082024074849",
+        "component_file_name": "purple_feature_grid_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it. Adding a Hadoken button to the project.",
+        "message_id": "guest28082024074845",
+        "timestamp": "28082024074846",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a hadoken button",
+        "message_id": "guest28082024074845",
+        "timestamp": "28082024074845",
+        "component_file_name": "purple_feature_grid_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Live status updates for Santa's availability\", \"checked\": true}, {\"feature\": \"Automated response after form submission with estimated reply time\", \"checked\": true}, {\"feature\": \"Option to attach a wishlist or images with the form\", \"checked\": false}, {\"feature\": \"Customizable greeting options for the form ('Dear Santa', 'Hello Santa', etc.)\", \"checked\": false}, {\"feature\": \"Integration of a countdown timer to Christmas on the form page\", \"checked\": true}, {\"feature\": \"Feedback section post-contact for user experience improvement\", \"checked\": false}], \"input_token_count\": 537, \"output_token_count\": 118, \"time_taken\": \"0:00:05.474904\"}",
+        "message_id": "guest28082024074742",
+        "timestamp": "28082024074752",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Will add a contact form for Santa to the website.",
+        "message_id": "guest28082024074742",
+        "timestamp": "28082024074744",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Contact Santa' form to be positioned on the website?\", \"option1\": \"On the main navigation menu\", \"option2\": \"As a pop-up form accessible from every page\"}, {\"question 2\": \"What information do you want users to provide in the 'Contact Santa' form?\", \"option1\": \"Name, Email, and Message\", \"option2\": \"Name, Email, Message, and a section to upload a wish list\"}], \"input_token_count\": 270, \"output_token_count\": 111, \"time_taken\": \"0:00:04.097215\"}",
         "message_id": "guest28082024072700",
         "timestamp": "28082024072708",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_acknowledge",
-        "content": "Got it! Adding a button for Hadoken.",
-        "message_id": "guest28082024072558",
-        "timestamp": "28082024072559",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add a hadoken button",
-        "message_id": "guest28082024072558",
-        "timestamp": "28082024072558",
-        "component_file_name": "dark_footer_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Animated 'Hadoken' effect on button press\", \"checked\": true}, {\"feature\": \"Sound effect on 'Hadoken' button press\", \"checked\": true}, {\"feature\": \"Vibration feedback on 'Hadoken' button press for mobile users\", \"checked\": false}, {\"feature\": \"Cooldown timer for 'Hadoken' button to prevent spam\", \"checked\": false}, {\"feature\": \"Share feature to show off 'Hadoken' effects on social media\", \"checked\": false}, {\"feature\": \"Customizable 'Hadoken' button colors and effects in settings\", \"checked\": true}], \"input_token_count\": 222, \"output_token_count\": 128, \"time_taken\": \"0:00:06.496978\"}",
-        "message_id": "guest28082024072459",
-        "timestamp": "28082024072508",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Got it, adding the Hadoken button feature.",
-        "message_id": "guest28082024072459",
-        "timestamp": "28082024072500",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add hadoken button",
-        "message_id": "guest28082024072459",
-        "timestamp": "28082024072459",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "In the conversation, the user repeatedly requested the addition of a Hadoken button, and the AI acknowledged each request promptly, stating, \"Got it,\" or \"Sure, adding a Hadoken button to the project.\" When the user asked for a Shoryuken button to be added as well, the AI similarly acknowledged each request and followed up with questions regarding the button's positioning and functionality. These inquiries included options such as placing the button in a prominent location or triggering specific actions when pressed. The AI also provided lists of additional features that might be implemented, with several options checked based on user preferences, such as live chat support, automated email responses, and user profiling capabilities.\n\nAdditionally, the user brought up adding a contact form for Santa, which the AI confirmed it would implement, and offered further questions to refine the form's design and location on the website. Throughout the conversation, the AI maintained an interactive approach, frequently seeking clarification and offering a checklist of possible features to enhance the app's interface and functionality. The dialogue demonstrated continuous engagement where the AI efficiently processed the user's numerous requests for buttons and forms related to the app, ensuring a comprehensive integration of features as per the user's vision.",
-        "timestamp": "28082024072708",
-        "message_id": "guest28082024072700"
+        "content": "In the conversation, the user consistently requested the addition of a \"Hadoken\" button, prompting the AI to acknowledge and confirm the implementation each time with variations of \"Got it, adding a Hadoken button to the project.\" The AI also provided a checklist of potential features related to the Hadoken button, including animations and sound effects, while noting which items were checked or unchecked. The user expressed interest in a \"Shoryuken\" button as well, which led to further discussions on its positioning and functionality, with the AI similarly confirming each request. The user also asked for an email form to contact Santa, prompting the AI to state it would work on this request. Throughout the conversation, the AI actively sought clarification from the user on specific requirements and preferences regarding the position and actions of the buttons, alongside additional potential features for the project, including suggestions for live chat support, user customization, and interactive elements. The interaction indicated a collaborative effort to enhance the app's functionalities, focusing on user engagement through playful mechanics and effective communication tools.",
+        "timestamp": "28082024074849",
+        "message_id": "guest28082024074845"
     }
 ]
