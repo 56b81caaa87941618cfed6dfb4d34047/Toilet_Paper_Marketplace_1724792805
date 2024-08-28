@@ -34,7 +34,7 @@ INSTRUCTION: 3. Hero content: The main content of the landing page, including an
               <a id="get-started-button" 
                  class="flex items-center justify-center px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md transition duration-150 ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" 
                  href="#0">
-                  Get Started 
+                  Hadoken 
                   <span id="get-started-arrow" class="ml-2 transform transition-transform duration-150 ease-in-out group-hover:translate-x-0.5">→</span>
               </a>
             </div>
