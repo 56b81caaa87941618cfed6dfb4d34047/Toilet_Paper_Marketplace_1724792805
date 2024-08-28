@@ -74,5 +74,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\nThe user requested the addition of a shoryuken button to the app, and the AI acknowledged this request, confirming that it would be added to the project. The AI asked the user for specific details regarding the placement of the button within the app interface and the action it should trigger when pressed, offering two options for each question. The user focused on various additional features during the conversation, such as a hadoken button, customization options for user profiles, an in-app messaging system, and ratings and reviews sections, leading to discussions on their implementation status. The AI noted the user\u2019s preferences and continued to list potential additional features for consideration, confirming actions such as adding a contact form for Santa, implementing a live chat support feature, and other functionalities to enhance user interaction within the trading application. Throughout the conversation, the AI consistently acknowledged and reassured the user that their requests were being processed, showcasing a proactive approach to development and customization within the project.\nUser: add a hadoken button\nAI: Got it, adding a Hadoken button to the project.\nUser: add a hadoken button\nAI: Got it, adding a Hadoken button to the project.\nUser: add a hadoken button\nAI: Alright, I'll add a shoryuken button to the interface.\nUser: Add a shoryouken button\n\nThis is the user's current request of changes to be made:\nadd a hadoken button"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's current request of changes to be made:\nAdd a form to contact santa"
     }
 ]
