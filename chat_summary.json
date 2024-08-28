@@ -1,5 +1,50 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it! Adding a button for Hadoken.",
+        "message_id": "guest28082024072558",
+        "timestamp": "28082024072559",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a hadoken button",
+        "message_id": "guest28082024072558",
+        "timestamp": "28082024072558",
+        "component_file_name": "dark_footer_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Animated 'Hadoken' effect on button press\", \"checked\": true}, {\"feature\": \"Sound effect on 'Hadoken' button press\", \"checked\": true}, {\"feature\": \"Vibration feedback on 'Hadoken' button press for mobile users\", \"checked\": false}, {\"feature\": \"Cooldown timer for 'Hadoken' button to prevent spam\", \"checked\": false}, {\"feature\": \"Share feature to show off 'Hadoken' effects on social media\", \"checked\": false}, {\"feature\": \"Customizable 'Hadoken' button colors and effects in settings\", \"checked\": true}], \"input_token_count\": 222, \"output_token_count\": 128, \"time_taken\": \"0:00:06.496978\"}",
+        "message_id": "guest28082024072459",
+        "timestamp": "28082024072508",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, adding the Hadoken button feature.",
+        "message_id": "guest28082024072459",
+        "timestamp": "28082024072500",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add hadoken button",
+        "message_id": "guest28082024072459",
+        "timestamp": "28082024072459",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a hadoken button",
         "message_id": "guest28082024072304",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'shoryuken' button to be positioned within the app's interface?\", \"option1\": \"In a prominent place, such as the header or footer.\", \"option2\": \"Integrated within the main content or alongside specific features.\"}, {\"question 2\": \"What action should be triggered when the 'shoryuken' button is pressed?\", \"option1\": \"Display a fun animation or visual effect.\", \"option2\": \"Execute a specific function or command within the app.\"}], \"input_token_count\": 532, \"output_token_count\": 118, \"time_taken\": \"0:00:03.089107\"}",
-        "message_id": "guest27082024230109",
-        "timestamp": "27082024230114",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a Hadoken button for a fun projectile animation\", \"checked\": false}, {\"feature\": \"Implement an email form for contacting Santa\", \"checked\": false}, {\"feature\": \"Integrate a live chat support system for real-time assistance\", \"checked\": true}, {\"feature\": \"Set up automated email responses for user inquiries\", \"checked\": true}, {\"feature\": \"Add visual/sound effects for when the Shoryuken button is pressed\", \"checked\": true}, {\"feature\": \"Enable user customization of button placements on the mobile app interface\", \"checked\": false}], \"input_token_count\": 486, \"output_token_count\": 135, \"time_taken\": \"0:00:04.913516\"}",
-        "message_id": "guest27082024230109",
-        "timestamp": "27082024230116",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Alright, I'll add a shoryuken button to the interface.",
-        "message_id": "guest27082024230109",
-        "timestamp": "27082024230110",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "Add a shoryouken button",
-        "message_id": "guest27082024230109",
-        "timestamp": "27082024230109",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'shoryuken' button positioned on the webpage?\", \"option1\": \"Below the 'hadoken' button\", \"option2\": \"At the bottom of the homepage\"}, {\"question 2\": \"What action should the 'shoryuken' button trigger when clicked?\", \"option1\": \"Open a modal with detailed information\", \"option2\": \"Navigate to a new page with a special offer\"}], \"input_token_count\": 602, \"output_token_count\": 104, \"time_taken\": \"0:00:02.702010\"}",
-        "message_id": "guest27082024222914",
-        "timestamp": "27082024222921",
-        "component_file_name": "purple_background_cta_component_1724792808",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "The user requested the addition of a shoryuken button to the app, and the AI acknowledged this request, confirming that it would be added to the project. The AI asked the user for specific details regarding the placement of the button within the app interface and the action it should trigger when pressed, offering two options for each question. The user focused on various additional features during the conversation, such as a hadoken button, customization options for user profiles, an in-app messaging system, and ratings and reviews sections, leading to discussions on their implementation status. The AI noted the user\u2019s preferences and continued to list potential additional features for consideration, confirming actions such as adding a contact form for Santa, implementing a live chat support feature, and other functionalities to enhance user interaction within the trading application. Throughout the conversation, the AI consistently acknowledged and reassured the user that their requests were being processed, showcasing a proactive approach to development and customization within the project.",
-        "timestamp": "28082024072304",
-        "message_id": "guest28082024072304"
+        "content": "The user initiated various feature requests for a project involving an app interface and specific buttons. They consistently requested the addition of a \"shoryuken\" button to the project, accompanied by questions from the AI regarding its preferred position and triggered actions. The user was presented with multiple placement options for this button, such as the main trading interface, user profile section, or main navigation bar, and possible actions it could execute, including initiating a new trade or opening a modal with detailed information. Acknowledging each request, the AI confirmed it would add the button as specified.\n\nIn addition, the user was offered a variety of supplementary features they might consider implementing, which included a \"Hadoken\" button, live chat support, email response systems, and user customization options. The user repeatedly requested the Hadoken button, leading to similar inquiries about its placement and functionality within the app. The AI acknowledged these requests as well, declaring intentions to add the Hadoken button and other suggested features.\n\nToward the end, the user proposed adding an email form to contact Santa. Following similar patterns, the AI asked for preferences regarding the form's positioning and layout, promising to integrate the user's suggestions accordingly. Throughout the conversation, the AI maintained a responsive and accommodating demeanor, consistently updating the project based on the user\u2019s requests.",
+        "timestamp": "28082024072559",
+        "message_id": "guest28082024072558"
     }
 ]
