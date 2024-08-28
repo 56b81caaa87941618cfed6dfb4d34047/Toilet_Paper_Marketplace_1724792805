@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the Hadoken button to be placed within the app interface?\", \"option1\": \"On the main navigation bar\", \"option2\": \"In the user profile section\"}, {\"question 2\": \"What action should the Hadoken button trigger when pressed?\", \"option1\": \"Initiate a unique animation\", \"option2\": \"Open a special offers or deals section\"}], \"input_token_count\": 550, \"output_token_count\": 93, \"time_taken\": \"0:00:05.312518\"}",
+        "message_id": "guest28082024072558",
+        "timestamp": "28082024072605",
+        "component_file_name": "dark_footer_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it! Adding a button for Hadoken.",
         "message_id": "guest28082024072558",
