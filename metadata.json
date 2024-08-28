@@ -4,5 +4,6 @@
     "project_description": "toilet paper trading market place",
     "creation_time": "2024-08-27 17:06:45.385902",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "stellar"
+    "selected_starter_template_id": "stellar",
+    "frontend_theme_prompt": "The image features a surrealistic, sci-fi landscape with a vibrant color scheme dominated by shades of pink and purple, creating a mystical, otherworldly atmosphere. The style includes vast mountains, a large planet, and smaller celestial bodies, reflected in a calm, water-like surface."
 }
