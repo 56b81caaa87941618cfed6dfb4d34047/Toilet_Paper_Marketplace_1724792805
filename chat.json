@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a hadoken button",
+        "message_id": "guest28082024074926",
+        "timestamp": "28082024074927",
+        "component_file_name": "purple_hero_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the Hadoken button to be placed within the app?\", \"option1\": \"On the main trading interface near the search bar\", \"option2\": \"In the user profile section for easy access\"}, {\"question 2\": \"What specific action should the Hadoken button trigger?\", \"option1\": \"Initiate a unique trading request to other users\", \"option2\": \"Open a special offer or discount section on the platform\"}], \"input_token_count\": 582, \"output_token_count\": 105, \"time_taken\": \"0:00:02.680794\"}",
         "message_id": "guest28082024074845",
