@@ -47,6 +47,16 @@ INSTRUCTION: 3. Hero content: The main content of the landing page, including an
               </a>
             </div>
           </div>
+          <div id="hadoken-button-container" class="mt-4">
+            <button
+              id="hadoken-button"
+              class="flex items-center justify-center px-6 py-3 text-white bg-red-600 rounded-lg shadow-md transition duration-150 ease-in-out hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
+              @click="performHadoken"
+            >
+              <i class='bx bxs-hot mr-2'></i>
+              Hadoken!
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -60,7 +70,16 @@ export default {
     return {
       expanded: false,
       tab: null
+      tab: null
     };
+  },
+  methods: {
+    // Hadoken method
+    performHadoken() {
+      console.log("Hadoken!");
+      // Add your Hadoken logic here
+    }
+    // End of Hadoken method
   }
 };
 </script>
