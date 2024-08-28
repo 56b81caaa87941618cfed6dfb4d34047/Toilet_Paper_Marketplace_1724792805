@@ -90,5 +90,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\nIn the conversation, the user consistently requested the addition of a \"Hadoken\" button, prompting the AI to acknowledge and confirm the implementation each time with variations of \"Got it, adding a Hadoken button to the project.\" The AI also provided a checklist of potential features related to the Hadoken button, including animations and sound effects, while noting which items were checked or unchecked. The user expressed interest in a \"Shoryuken\" button as well, which led to further discussions on its positioning and functionality, with the AI similarly confirming each request. The user also asked for an email form to contact Santa, prompting the AI to state it would work on this request. Throughout the conversation, the AI actively sought clarification from the user on specific requirements and preferences regarding the position and actions of the buttons, alongside additional potential features for the project, including suggestions for live chat support, user customization, and interactive elements. The interaction indicated a collaborative effort to enhance the app's functionalities, focusing on user engagement through playful mechanics and effective communication tools.\nAI: Got it. Adding a Hadoken button to the project.\nUser: Add a hadoken button\nAI: Will add a contact form for Santa to the website.\nAI: Sure, I'll add a form to contact Santa.\nUser: Add a form to contact santa\n\nThis is the user's current request of changes to be made:\nadd a hadoken button"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's current request of changes to be made:\nChange the getting started button to say hadoken"
     }
 ]
