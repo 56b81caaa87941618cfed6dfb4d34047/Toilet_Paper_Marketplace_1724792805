@@ -1,6 +1,15 @@
 [
     {
         "role": "user",
+        "content": "add hadoken button",
+        "message_id": "guest28082024072459",
+        "timestamp": "28082024072459",
+        "component_file_name": "purple_background_cta_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
         "content": "add a hadoken button",
         "message_id": "guest28082024072304",
         "timestamp": "28082024072304",
