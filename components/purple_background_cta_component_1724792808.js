@@ -48,6 +48,25 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
             Get Started
             <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span>
           </a>
+
+          <!-- Santa Contact Form -->
+          <div id="santa-contact-form" class="mt-8 bg-white bg-opacity-10 rounded-lg p-6 shadow-lg">
+            <h3 class="text-xl font-semibold text-white mb-4">Contact Santa</h3>
+            <form @submit.prevent="submitSantaForm">
+              <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-white mb-2">Name</label>
+                <input type="text" id="name" v-model="santaForm.name" class="w-full px-3 py-2 bg-white bg-opacity-20 border border-purple-300 rounded-md text-white placeholder-purple-200" placeholder="Your Name" required>
+              </div>
+              <div class="mb-4">
+                <label for="wishlist" class="block text-sm font-medium text-white mb-2">Wishlist</label>
+                <textarea id="wishlist" v-model="santaForm.wishlist" rows="3" class="w-full px-3 py-2 bg-white bg-opacity-20 border border-purple-300 rounded-md text-white placeholder-purple-200" placeholder="What would you like for Christmas?" required></textarea>
+              </div>
+              <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-md transition duration-300">
+                Send to Santa
+                <i class='bx bx-send ml-2'></i>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -60,8 +79,21 @@ export default {
   data() {
     return {
       expanded: false,
-      tab: null
+      tab: null,
+      santaForm: {
+        name: '',
+        wishlist: ''
+      }
     };
+  },
+  methods: {
+    submitSantaForm() {
+      // Handle form submission logic here
+      console.log('Santa form submitted:', this.santaForm);
+      // Reset form after submission
+      this.santaForm.name = '';
+      this.santaForm.wishlist = '';
+    }
   }
 };
 </script>
