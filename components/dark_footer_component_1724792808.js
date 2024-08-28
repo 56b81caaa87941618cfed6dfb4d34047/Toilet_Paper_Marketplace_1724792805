@@ -224,8 +224,50 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
                 Return Policy
               </a>
             </li>
+            </li>
           </ul>
         </div>
+
+        <!-- 5th block - Contact Santa Form -->
+        <div id="footer-block-5" class="sm:col-span-12 md:col-span-6 lg:col-span-4">
+          <h6 id="footer-block-5-title" class="text-sm font-medium mb-2 text-slate-50">
+            Contact Santa
+          </h6>
+          <form id="contact-santa-form" class="space-y-4">
+            <div>
+              <label for="name" class="block text-sm text-slate-400 mb-1">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full bg-slate-800 border border-slate-700 rounded-md px-3 py-2 text-sm text-slate-200 placeholder-slate-500"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div>
+              <label for="message" class="block text-sm text-slate-400 mb-1">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="w-full bg-slate-800 border border-slate-700 rounded-md px-3 py-2 text-sm text-slate-200 placeholder-slate-500"
+                placeholder="Your message to Santa"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-md transition duration-150 ease-in-out"
+            >
+              <i class='bx bx-envelope mr-2'></i>
+              Send to Santa
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
       </div>
     </div>
   </footer>
@@ -240,5 +282,21 @@ export default {
       tab: null,
     };
   },
+  methods: {
+    // Contact Santa form submission method
+    submitContactSanta(event) {
+      event.preventDefault();
+      const name = event.target.name.value;
+      const message = event.target.message.value;
+      console.log(`Message to Santa from ${name}: ${message}`);
+      // Add your form submission logic here
+      alert('Your message has been sent to Santa!');
+      event.target.reset();
+    }
+    // End of Contact Santa form submission method
+  },
+  mounted() {
+    document.getElementById('contact-santa-form').addEventListener('submit', this.submitContactSanta);
+  }
 };
 </script>
