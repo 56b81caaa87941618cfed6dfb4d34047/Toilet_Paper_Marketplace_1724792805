@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the 'Hadoken' button to maintain its current design (size, color, font) or should it be updated to reflect a new style that possibly matches the gaming theme?\", \"option1\": \"Keep current design\", \"option2\": \"Update to a new style reflecting the gaming theme\"}, {\"question 2\": \"Should the 'Hadoken' button have any special animations or sound effects when clicked, given the reference to gaming culture?\", \"option1\": \"Yes, add a special animation or sound effect\", \"option2\": \"No, keep it functional without additional effects\"}], \"input_token_count\": 273, \"output_token_count\": 135, \"time_taken\": \"0:00:05.443090\"}",
+        "message_id": "guest28082024075144",
+        "timestamp": "28082024075201",
+        "component_file_name": "purple_hero_component_1724792808",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'll update the button text to \"Hadoken\".",
         "message_id": "guest28082024075144",
